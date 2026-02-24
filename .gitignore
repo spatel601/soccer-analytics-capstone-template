@@ -209,3 +209,9 @@ __marimo__/
 # Project specific
 *.parquet
 .DS_Store
+
+data/raw/
+data/processed/
+# Keep the folder structure but ignore the content
+!data/
+!data/.gitkeep
